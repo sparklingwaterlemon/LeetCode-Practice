@@ -5,11 +5,15 @@
  */
 
 var twoSum = function(nums, target) {
-    for(let i = 0 ; i < nums.length ; i++){
-        for(let j = i+1 ; j < nums.length ; j++){
-            if(nums[i] + nums[j] === target){
-                return [i,j]
-            }
+    let storage = {};
+    
+    for(let i=0 ; i < nums.length ; i++){
+        let compliment = target - nums[i];
+        
+        if(storage[compliment] !== undefined){
+            return [storage[compliment], i]
+        } else {
+            storage[nums[i]] = i
         }
-    }    
+    }
 };
