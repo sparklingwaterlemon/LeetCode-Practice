@@ -3,16 +3,13 @@
  * @param {number} target
  * @return {number[]}
  */
+
 var twoSum = function(nums, target) {
-    let storage = {};
-    
-    for(let i=0 ; i < nums.length ; i++){
-        let compliment = target - nums[i];
-        
-        if(storage[compliment] != null){
-            return [storage[compliment], i]
-        } else {
-            storage[nums[i]] = i
+    for(let i = 0 ; i < nums.length ; i++){
+        for(let j = i+1 ; j < nums.length ; j++){
+            if(nums[i] + nums[j] === target){
+                return [i,j]
+            }
         }
-    }
+    }    
 };
