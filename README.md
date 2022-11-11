@@ -6,7 +6,7 @@ Hard: 0
 
 <hr />
 
-### 11/10 Update:
+## 11/10 Update:
 
 Noticed today that LeetHub has not been working as intended for the past few days. Last successful commit was on (11/2) 0020-valid-parentheses.
 
