@@ -4,6 +4,7 @@ Noticed today that LeetHub has not been working as intended for the past few day
 Have not modified GitHub account nor LeetCode account in any significant matter that would have broken LeetHub. As for now, will manually update and push LeetCode submissions into repo.
 
 <hr/>
+
 #### Log:
 Easy: 4
 Medium: 0
