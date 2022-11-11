@@ -2,9 +2,9 @@
 21. Best Time to Buy and Sell Stock
 </a></h2>
 
-<hr/>
-
 #### Easy
+
+<hr/>
 
 You are given an array prices where prices[i] is the price of a given stock on the ith day.
 

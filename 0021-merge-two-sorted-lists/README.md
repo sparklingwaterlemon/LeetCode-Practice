@@ -1,10 +1,11 @@
 <h2><a href="https://leetcode.com/problems/merge-two-sorted-lists/">
 21. Merge Two Sorted Lists</a></h2>
 
+#### Easy
 
 <hr/>
 
-#### Easy
+
 
 You are given the heads of two sorted linked lists list1 and list2.
 
