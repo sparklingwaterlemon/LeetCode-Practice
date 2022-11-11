@@ -4,7 +4,7 @@ Easy: 4
 Medium: 0
 Hard: 0
 
-<hr />
+<br />
 
 ## 11/10 Update:
 
