@@ -1,6 +1,8 @@
 # Progress
+##### last updated: 11/14
 
-Easy: 4
+<br />
+Easy: 5
 <br />
 Medium: 0
 <br />
