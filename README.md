@@ -1,8 +1,8 @@
 # Progress
-##### last updated: 11/14
+##### last problem solved on: 11/17
 
 <br />
-Easy: 5
+Easy: 6
 <br />
 Medium: 0
 <br />
