@@ -1,3 +1,6 @@
+// Independent Take - no outside resource...
+// First Take on Inverting a Binary Tree
+
 // creating Class Constructor Nodes for Binary Tree
 class Node{
 	constructor(val, left, right){
@@ -52,4 +55,5 @@ var InvertTree = (tree) =>{
 
 InvertTree(root);
 
+// Inverts the tree but..
 // This solution does not "run" in LeetCode :-(

@@ -1,3 +1,4 @@
+// Persistant Programmers Code
 
 var invertTree = function(root) {
 
@@ -5,6 +6,7 @@ var invertTree = function(root) {
         if(node === null){
             return;
         }
+
         reverseNodes(node.left);
         reverseNodes(node.right);
 
@@ -20,7 +22,21 @@ var invertTree = function(root) {
 // why didn't LeetCode accept/ run my answer??
 
 // Extra Note - She created an inner function to be recursed. However, we can use the outer function to be recursive
-// See solution.js file
+// Here:
+function invertTree(root){
+    if(root === null) return root;
+    
+    invertTree(root.left);
+    invertTree(root.right);
+
+    let temp = root.right;
+    root.right = root.left;
+    root.left = temp;
+  
+    return root;
+};
+
+
 
 // reworked my CodePen code to have function inside.
 var InvertTree = (tree) =>{
@@ -48,4 +64,4 @@ var InvertTree = (tree) =>{
 	
     return newRoot.val
 }
-// will not accept dummy.left variable
+// update. leet code will still not accept dummy.left variable
